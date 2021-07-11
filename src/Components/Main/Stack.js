@@ -189,7 +189,7 @@ export const Stack = () => {
                   data-aos-easing="linear"
                   data-aos-duration="900"
                 >
-                  <HashLink to="/home#top">
+                  <HashLink to="/dev#top">
                     {/* remove to put nomal*/}
                     <div class="team2">
                       <img

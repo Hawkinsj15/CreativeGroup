@@ -4,37 +4,36 @@ import logo2 from "../../assest/backk2.jpg";
 import logo3 from "../../assest/wed.jpg";
 import okl from "../../assest/okl.jpg";
 
-
-
-
 export const HomePage = () => {
   return (
     <body>
       <div class="curved">
-        
-        
-        
         <div class="container">
-        <div class="row">
+          <div class="row">
             <div id="cen" class="col-md-12">
-               <img id="sd" style={{opacity:"0"}}src={logo}></img>
-              </div>
-           
+              <img id="sd" style={{ opacity: "0" }} src={logo}></img>
+            </div>
           </div>
-          
+
           <div class="container">
-              <div class="row">
-                  <div  class="col-md-12">
-                      <h3 id="temp" > BLACK SHEEP CREATIVE GROUP</h3>
-                      
-                      <h4 id="temp2"> Software Development | Graphic Design | IT Infastructure Setup </h4>
-                      
-                  </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h3 id="temp"> BLACK SHEEP CREATIVE GROUP</h3>
+
+                <h4 id="temp2">
+                  {" "}
+                  Software Development | Graphic Design | IT Infastructure Setup{" "}
+                </h4>
               </div>
+            </div>
           </div>
         </div>
-        
-        <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 318" >
+
+        <svg
+          class="svg"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 318"
+        >
           <path
             fill="#fff"
             fill-opacity="1"

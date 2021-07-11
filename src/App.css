@@ -613,3 +613,31 @@ html {
 
       opacity:100%;
     }
+
+    @media screen and (min-width: 1000px) {
+      
+      #techIcon{
+          width:50px;
+          height:50px;
+          margin: 5% 5% 5% 0%;
+      }
+}
+    @media screen and (max-width: 480px) {
+      
+        #techIcon{
+            width:50px;
+            height:50px;
+            margin: 5% 0% 5% 0%;
+        }
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) { 
+    /* STYLES HERE */
+    #techIcon{
+      width:50px;
+      height:50px;
+      margin: 5% 2% 5% 2%;
+  }
+}
+
+
+  
