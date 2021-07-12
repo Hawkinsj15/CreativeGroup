@@ -84,3 +84,9 @@ figure.snip1192 .author h5 span {
 .imgx:hover { 
         opacity: 0.2; 
         }
+
+        @media screen and (max-width: 480px) {
+            #z{
+                margin-bottom:0px;
+            }
+          }

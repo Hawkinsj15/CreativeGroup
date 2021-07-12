@@ -7,6 +7,7 @@ import okl from "../../assest/okl.jpg";
 export const HomePage = () => {
   return (
     <body>
+        {/* Background for HomePage */}
       <div class="curved">
         <div class="container">
           <div class="row">
@@ -14,7 +15,7 @@ export const HomePage = () => {
               <img id="sd" style={{ opacity: "0" }} src={logo}></img>
             </div>
           </div>
-
+         {/* Title for HomePage */}
           <div class="container">
             <div class="row">
               <div class="col-md-12">

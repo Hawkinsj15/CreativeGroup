@@ -1,11 +1,11 @@
 import React from "react";
 import "bootstrap/js/src/collapse.js";
 
-
-
+// Navbar for the HomePage
+// Imported from bootstrap
 export const Navigation = () => {
   return (
- 
+    
     <nav class="navbar  fixed-top navbar-expand-lg navbar-dark p-md-1">
     <div class="container">
       <a class="navbar-brand" href="#">BSG</a>

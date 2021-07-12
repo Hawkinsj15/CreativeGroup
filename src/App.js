@@ -1,16 +1,15 @@
-import logo from './logo.svg';
-import { Navigation} from './Components/Main/Navigation';
-import { HomePage }from './Components/Main/HomePage';
-import { Stack }from './Components/Main/Stack';
-import { Footer }from './Components/Main/Footer';
-import { Header }from './Components/devPort/Header';
-import {AboutBody}from './Components/About/AboutBody';
-import {HeaderAbout}from './Components/About/HeaderAbout';
-
+import logo from "./logo.svg";
+import { Navigation } from "./Components/Main/Navigation";
+import { HomePage } from "./Components/Main/HomePage";
+import { Stack } from "./Components/Main/Stack";
+import { Footer } from "./Components/Main/Footer";
+import { Header } from "./Components/devPort/Header";
+import { AboutBody } from "./Components/About/AboutBody";
+import { HeaderAbout } from "./Components/About/HeaderAbout";
 
 // import "../node_modules/jquery/dist/jquery.min.js";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
-import './App.css';
+import "./App.css";
 import {
   Link,
   Route,
@@ -25,8 +24,9 @@ function App() {
       <div>
         <Navigation />
         <Switch>
-          {/* <Route exact path="/" component={HomePage,Stack} /> */}
+          
 
+          {/* Home page path */}
           <Route
             exact
             path="/"
@@ -34,53 +34,36 @@ function App() {
               <div>
                 <HomePage />
                 <Stack />
-                <Footer/>
-               
-                
+                <Footer />
               </div>
             )}
           />
-          
 
-<Route
+          {/* Personal dev page path */}
+          <Route
             exact
             path="/dev"
             render={() => (
               <div>
                 <Header />
-                
-               
-                
               </div>
             )}
           />
-          
 
+          {/* About Us page path */}
           <Route
             exact
             path="/about"
             render={() => (
               <div>
                 <div>
-                <HeaderAbout />
+                  <HeaderAbout />
                 </div>
                 <AboutBody />
-                
-               
-                
               </div>
             )}
           />
-          
-
-          
-          
-          
-  
-          
         </Switch>
-       
-        
       </div>
     </HashRouter>
   );

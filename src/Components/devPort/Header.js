@@ -156,15 +156,17 @@ export const Header = () => {
                     My Work
                   </h1>
 
+                
                   <div class="row">
-                    <a href="http://www.github.com" target="_blank>">
-                      <img
+                  <div class="col-md-12">
+                    <a  href="http://www.github.com" target="_blank>">
+                      <img id="z"
                         class="imgx"
                         style={{
                           height: "100px",
                           width: "100px",
                           borderRadius: "50%",
-                          marginBottom: "100px",
+                        //   marginBottom: "100px",
                           marginLeft: "100px",
                         }}
                         src={deskpad}
@@ -235,10 +237,12 @@ export const Header = () => {
                         height: "10px",
                         width: "10px",
                         borderRadius: "60%",
-                        marginTop: "100px",
+                        marginTop: "0px",
+                        marginLeft: "240px",
                       }}
                     ></div>
                   </div>
+                </div>
                 </div>
                 {/* Developer Skills section */}
                 <div class="col-md-6 mx-auto">

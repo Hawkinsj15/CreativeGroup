@@ -27,6 +27,12 @@ import { HashLink } from "react-router-hash-link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
+
+
+
+
+// Stack.js has the body for the HomePage.
 export const Stack = () => {
   //  Javascript for AOS animation on team cards
   useEffect(() => {
